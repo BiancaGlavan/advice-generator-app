@@ -1,10 +1,10 @@
 # Frontend Mentor - Advice generator app solution
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://lucent-stroopwafel-8286a2.netlify.app/](https://lucent-stroopwafel-8286a2.netlify.app/)
 
 # Screenshot
 
-![](./screenshot.jpg)
+![](./images/advicescreenshot.PNG.jpg)
 
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). 
 
