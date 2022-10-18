@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(218deg, 23%, 16%);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.card {
+  background-color: hsl(217deg, 19%, 24%);
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding: 30px;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.card h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: hsl(150deg, 100%, 66%);
+}
+.card .result {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: hsl(193deg, 38%, 86%);
+  font-size: 18px;
+  font-weight: 800;
+}
+.card .image {
+  position: absolute;
+  background-color: hsl(150deg, 100%, 66%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -20px;
+  left: calc(50% - 20px);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+.card .image:hover {
+  box-shadow: 0 0 10px rgba(104, 226, 132, 0.6);
+}
+.card .image img {
+  width: 20px;
+  height: 20px;
+}
+.card .divider img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+@media screen and (min-width: 320px) {
+  .card {
+    max-width: 300px;
+  }
+}/*# sourceMappingURL=style.css.map */
